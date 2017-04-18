@@ -1,9 +1,13 @@
 language: node_js
-
 node_js:
-  - "6"
-
+- '6'
 before_script:
-  - npm install -g gulp
-
+- npm install -g gulp
 script: gulp
+deploy:
+  provider: heroku
+  api_key:
+    secure: dlThKmll9ikGd6jKQaqPBxAw0ogAi4iKBOa2xs8KNTuhXCXNGWC9TUFChNhviuvA7fX9hCFRbH6i95L+4N8bP1rjGMU/C7ul7f6fYYxycOum0qtV94AOPwRReg6fq1P6erORIEdyAf6jkJbPPmQY9Tp7gPlzxLyIJEiaJevy20aYtrIf6R90WGnDRD0Eo//rStGPb6YO0eeiX/gXCYcWFhuD37yxxo//mfqmuijYjSxypWKYeeXJsfxjKCAe0+PjdqyVpckhY9vRfI8bf3ACBfQzzM+j63rk3U22rOIQ0L1nxhJ+/ELuZoUzlNH8anEhywMQEq7Cj8fu8eWeXiOxQ+y/NpjFySotQyB34bw0Deksgx6L6GMw09QC9fIBic8UKycoxYD9Y03b6sYeLDXLyld0JtdiOUgqCMIIU5rJmsc78KXDm3v3a5+yR6myP6beXdpuAtHa42mBWHkhIoYGNpOfHjDl2/UMuw26WS5k3ms8P41l28kF7AwwjcEuluMlI55j0KA2AbhPY0IzXJ/W93GsAHRcTAa1Jjr1CoTrNPEkOV7LfXF8C/DktLr50na17slxtOSwExgd3pRP2I1o8FOENkeelz5pZ4p7Ro+z0GreQBPAifc4hNq93Yjibp1hc6KMav28JhEjsG8BQ8xQw9Q0d581iskIyxv6pBu9ATU=
+  app: cse112_tutorial_testing
+  on:
+    repo: mitcho85/cse112_tutorial_testing
