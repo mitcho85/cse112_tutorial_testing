@@ -6,8 +6,7 @@ before_script:
 script: gulp
 deploy:
   provider: heroku
-  api_key:
-    secure: SBOJmHKQBpp8Wkr4JQBBa0ycJ+O/PBR3qRrj++KiWXOTv4nUEm+BRyeoEcLaNfJUnjzRiHXXKOH3zmQEI92+w6y3elo2X2+jP3+CyfXozbFOPhGa4nv51mrkq7y0ln1vqSu7zvhrQK8DxhWnsYLvmCzjzTi5Q6ChkDAjesmMNu7Xgr7+CI3nylj1qXvwf6awXEQJhBDKr7nXokAUrybswOIcH17jV4H9iC45tnz67GxwLSbF0YRHC0e24/7+Zwp/qzlqEDNlBQoQzEdcyZRuabiYysO+F7Ssnb80wu0gZPo3/Ms6OCflyUo9wrZSU7jG1ppttOFZahbQEcYY366oEQ/pPjrA8gx2YEcnltorsy0uAYLd2jmwtclipNioC0w+4uM4ZvHMi9Rqh/Ox3LVf7chWNEjQCa7kvJaOnv6HYByYSYKC32j3hpktTF/3QhvxXfGk0kYIfxZDpBsMs4xog/icD1/hvAVVeFgWOUB+gTvTm2nxXNcIl73jNXAQEYJR6NeCa83Ll0HchwXzWe6lCA/AXnaDl/GHrBroW5Bgm5XCgVoSjbo+hQOKEV7cNwnUPaJkh/11Pz/QWTNZat6jiblf4BIxa9dVtIYdX4YTKqi1hsYcma6tv45mMayDFh/spKFiz5B+7g5O1Fkd2PxurVownIwnlA7xuUfBHCVKD3s=
-  app: cse112-tutorial-testing
+  api_key: cebb095d-31a9-4bd3-b130-d2036d330b01
+  app: cse-112-tutorial-testing
   on:
     repo: mitcho85/cse112_tutorial_testing
